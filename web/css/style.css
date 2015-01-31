@@ -269,7 +269,6 @@ intro
 	z-index:2;
 }
 .link-holder ul {
-	max-width:200px;
 	margin:0 auto;
 }
 .link-holder ul li {
@@ -2235,170 +2234,170 @@ Media
 --------------------------------------------------------------*/
 
 @media only screen and  (max-width: 1200px) {
-.left-sidebar{
-	width:250px;
-}	
-.content-holder{
-	margin-left:250px;
-}
-#about .grid-half {
-	width:100%;
-}
-.photo-holder{
-	margin-bottom:60px;
-}
-.resume-info{
-	margin-left:30px;
-}
-.contact-details h3 {
-	display:none;
-}
-.contact-details ul {
-	float:none;
-	margin:0 auto;
-}
-.contact-details ul li {
-	float:left;
-	width:100%;
-	margin-bottom:20px;
-}
-.contact-details  ul li i {
-	float:none;
-	width:50px !important;
-	height:50px !important;
-	margin:0 auto;
-}
-.contact-details ul li span{
-	width:100%;
-	margin-top:20px;
-	margin-left:0;
-}
-.folio-overlay h3{
-	margin-top:10%;
-}
+    .left-sidebar{
+        width:250px;
+    }
+    .content-holder{
+        margin-left:250px;
+    }
+    #about .grid-half {
+        width:100%;
+    }
+    .photo-holder{
+        margin-bottom:60px;
+    }
+    .resume-info{
+        margin-left:30px;
+    }
+    .contact-details h3 {
+        display:none;
+    }
+    .contact-details ul {
+        float:none;
+        margin:0 auto;
+    }
+    .contact-details ul li {
+        float:left;
+        width:100%;
+        margin-bottom:20px;
+    }
+    .contact-details  ul li i {
+        float:none;
+        width:50px !important;
+        height:50px !important;
+        margin:0 auto;
+    }
+    .contact-details ul li span{
+        width:100%;
+        margin-top:20px;
+        margin-left:0;
+    }
+    .folio-overlay h3{
+        margin-top:10%;
+    }
 }
 /* ====================
 Tablet / netbooks 
 --------------------------------------------------------------*/
 @media only screen and  (max-width: 959px) {
-.left-sidebar{
-	display:none;
-}	
-.content-holder{
-	margin-left:0;
-}	
-.nav-holder{
-	position:fixed;
-	width:100%;
-	height:50px;
-	z-index:100;
-	top:0;
-	left:0;
-	-webkit-backface-visibility: hidden;
-	-webkit-transform: translateZ(0);
-	-moz-box-shadow: 0 0 10px -2px #000;
-	-webkit-box-shadow: 0 0 10px -2px #000;
-	box-shadow: 0 0 10px -2px #000;
-}
-.nav-button{
-	width:46px;
-	height:36px;
-	position:absolute;
-	top:8px;
-	left:50%;
-	margin-left:-23px;
-	cursor:pointer;
-	padding:4px;
-	display:block;
-}
-.nav-button span{
-	width:100%;
-	height:4px;
-	float:left;
-	margin-bottom:6px;
-	background:#fff;
-}
-.text-ticker-holder{
-	width:100%;
-}
-.nav-border{
-	display:none;
-}
-.link-holder{
-	margin-top:0;
-	background:#54BABB;
-	display:none;
-	position:absolute;
-	top:50px;
-	left:0;
-	width:100%;
-}
-.link-holder ul {
-	width:100%;
-}
-.link-holder ul li {
-	width:100%;
-	float:left;
-	margin-bottom:8px;
-}
-.link-holder ul li a {
-	border: none;
-}
-.link-holder ul li.cur a{
-	background:#fff;
-	color:#54BABB;
-}
-.resume-line{
-	display:none;
-}
-#facts ul li {
-	width:100%;
-	margin-bottom:90px;
-}
-#facts ul li:last-child{
-	margin-bottom:10px;
-}
-.box {
-	width: 46.969696969697%;
-}
-.folio-overlay h3{
-	margin-top:30%;
-}
+    .left-sidebar{
+        display:none;
+    }
+    .content-holder{
+        margin-left:0;
+    }
+    .nav-holder{
+        position:fixed;
+        width:100%;
+        height:50px;
+        z-index:100;
+        top:0;
+        left:0;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translateZ(0);
+        -moz-box-shadow: 0 0 10px -2px #000;
+        -webkit-box-shadow: 0 0 10px -2px #000;
+        box-shadow: 0 0 10px -2px #000;
+    }
+    .nav-button{
+        width:46px;
+        height:36px;
+        position:absolute;
+        top:8px;
+        left:50%;
+        margin-left:-23px;
+        cursor:pointer;
+        padding:4px;
+        display:block;
+    }
+    .nav-button span{
+        width:100%;
+        height:4px;
+        float:left;
+        margin-bottom:6px;
+        background:#fff;
+    }
+    .text-ticker-holder{
+        width:100%;
+    }
+    .nav-border{
+        display:none;
+    }
+    .link-holder{
+        margin-top:0;
+        background:#6DCFF6;
+        display:none;
+        position:absolute;
+        top:50px;
+        left:0;
+        width:100%;
+    }
+    .link-holder ul {
+        width:100%;
+    }
+    .link-holder ul li {
+        width:100%;
+        float:left;
+        margin-bottom:8px;
+    }
+    .link-holder ul li a {
+        border: none;
+    }
+    .link-holder ul li.cur a{
+        background:#fff;
+        color:#6DCFF6;
+    }
+    .resume-line{
+        display:none;
+    }
+    #facts ul li {
+        width:100%;
+        margin-bottom:90px;
+    }
+    #facts ul li:last-child{
+        margin-bottom:10px;
+    }
+    .box {
+        width: 46.969696969697%;
+    }
+    .folio-overlay h3{
+        margin-top:30%;
+    }
 }
 
 /* ====================
 Tablet 
 --------------------------------------------------------------*/
 
-@media only screen and  (max-width: 740px) {
-	
-.resume-info{
-	margin-top:30px;
-	margin-left:0;
-	border-top:1px solid #ccc;
-}		
-.resume-info:after{
-	right: 100%;
-	margin-right:-73px;
-	top: -16px;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-.resume-info:after {
-	border-bottom-color: #ccc;
-	border-width: 15px;
-	margin-top: -15px;
-}
-#facts, #testimonials{
-	background-attachment: scroll;
-}
-#testimonials-slider p {
-	font-size:14px;
-}
+@media only screen and  (max-width: 680px) {
+
+    .resume-info{
+        margin-top:30px;
+        margin-left:0;
+        border-top:1px solid #ccc;
+    }
+    .resume-info:after{
+        right: 100%;
+        margin-right:-73px;
+        top: -16px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    .resume-info:after {
+        border-bottom-color: #ccc;
+        border-width: 15px;
+        margin-top: -15px;
+    }
+    #facts, #testimonials{
+        background-attachment: scroll;
+    }
+    #testimonials-slider p {
+        font-size:14px;
+    }
 }
 
 /* ====================
@@ -2407,26 +2406,26 @@ Smartphone / small tablet
 
 @media only screen and  (max-width: 540px) {
 
-.box {
-	width: 96.969696969697%;
-}
-#contact_form input{
-	width:100%;
-}
-#project-slider .owl-next ,#project-slider .owl-prev {display:none}
-#respond{
-	margin-left:0;
-}
+    .box {
+        width: 96.969696969697%;
+    }
+    #contact_form input{
+        width:100%;
+    }
+    #project-slider .owl-next ,#project-slider .owl-prev {display:none}
+    #respond{
+        margin-left:0;
+    }
 }
 /* ====================
 Retina 
 --------------------------------------------------------------*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-.container p , .margin{
-	font-size:1.1em;
-	font-weight:400;	
-}
-#testimonials-slider p {
-	font-size:18px;
-}
+    .container p , .margin{
+        font-size:1.1em;
+        font-weight:400;
+    }
+    #testimonials-slider p {
+        font-size:18px;
+    }
 }

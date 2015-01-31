@@ -185,8 +185,16 @@ function initChulan() {
       	itemsDesktop : false,
       	itemsDesktopSmall : [1200,2],
       	itemsTablet: [979,2],
-      	itemsMobile : [740,1]
-		
+      	itemsMobile : [740,1],
+        afterInit : function(){
+            if ($('body').width() < 741){
+                console.debug('firing');
+                $("#services-carousel .owl-wrapper").css({width:$('body').width()});
+                $("#services-carousel .owl-item").css({width:$('body').width() - 30});
+                console.debug("complete");
+            }
+            
+        }
      });
 	
  
@@ -325,7 +333,7 @@ $(document).ready(function(){
 	
 	// your coordinates   --------
 	
-	var Chulan = new google.maps.LatLng(40.761467,-73.956379);	
+	var Chulan = new google.maps.LatLng(28.4611329,-81.4757001);
 	function initialize() {	
 	   var styles = [
     {
@@ -395,10 +403,11 @@ $(document).ready(function(){
 	
 	  ];  
 	  var mapOptions = {
-		zoom:17,
-		zoomControl: true,
+		zoom:10,
+		zoomControl: false,
 		scaleControl: false,
 		scrollwheel: false,
+        draggable:false,
 		disableDefaultUI:true,
 		center: Chulan,
 		mapTypeControlOptions: {
@@ -422,7 +431,7 @@ $(document).ready(function(){
 	
 	// your marker coordinates   --------
 	
-	var companyPos = new google.maps.LatLng(40.761467,-73.956379);
+	var companyPos = new google.maps.LatLng(28.4611329,-81.4757001);
 	var companyMarker = new google.maps.Marker({
 		position: companyPos,
 		map: map,
