@@ -177,7 +177,7 @@ function initChulan() {
 	
 // OwlCarousel  ----------------------------------------	
 	
-	$("#services-carusel").owlCarousel({
+	$("#services-carousel").owlCarousel({
 		navigation:true,
 		slideSpeed : 500,
 		pagination : false,

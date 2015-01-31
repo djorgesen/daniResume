@@ -229,8 +229,8 @@
 @keyframes scaleUpTo {
   to { opacity: 0; transform: scale(1.5); }
 }
-#services-carusel .owl-next, #project-slider .owl-next{display:block;width:40px;height:40px;position:absolute;top:110%;margin-top:-25px;right:50%;margin-right:-45px;overflow:hidden;text-indent:-999px; border-radius:8px; border-bottom:4px solid #ccc;}
-#services-carusel .owl-prev, #project-slider .owl-prev{display:block;width:40px;height:40px;position:absolute;top:110%;margin-top:-25px;left:50%; margin-left:-45px;overflow:hidden;text-indent:-999px;border-radius:8px; border-bottom:4px solid #ccc;}
+#services-carousel .owl-next, #project-slider .owl-next{display:block;width:40px;height:40px;position:absolute;top:110%;margin-top:-25px;right:50%;margin-right:-45px;overflow:hidden;text-indent:-999px; border-radius:8px; border-bottom:4px solid #ccc;}
+#services-carousel .owl-prev, #project-slider .owl-prev{display:block;width:40px;height:40px;position:absolute;top:110%;margin-top:-25px;left:50%; margin-left:-45px;overflow:hidden;text-indent:-999px;border-radius:8px; border-bottom:4px solid #ccc;}
 #testimonials .owl-next {
 	position:absolute; 
 	right:0;
